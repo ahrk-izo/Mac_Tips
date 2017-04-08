@@ -1,0 +1,52 @@
+---
+◎Windowsと同じ
+△Windowsと違う
+※WinのctlとMacのcommandを同じとする
+
+[ショートカットキー機能]※後方のカッコ内はWindowsの場合のコマンド
+control + uセルの再編集 (F2)
+control + b / fn + delete : 選択状態のセルの中身をすべて空白にする (delete)
+control + i : セル挿入 (ctrl + shift + +)
+control + k : セルを削除 (ctrl + -)
+control + スペース : 選択セル位置の列をすべて選択 (ctrl + space)
+→spotlightを有効にしているとそちらが優先されて、列選択できない
+ (2017/03/25現在、option + 1 に変更しているので使える)
+
+◎shift + スペース : 選択セル位置の行をすべて選択 ???
+◎ command + x : カット
+◎ command + c : コピー
+◎ command + v : ペースト
+command + control + v : 形式を選択してペースト (ctrl + alt + v)
+control + リターン : 選択範囲に入力したセルの値をコピー (ctrl + enter)
+control + d : 上のセルをコピー (ctrl + d)
+control + r : セルと同じ行で直前の値をコピー (ctrl + r)
+command + option + リターン : セル内改行 (alt + enter)
+◎command + 1 : 書式設定ダイアログ
+◎command + s : 保存
+command + shift + s : 名前を付けて保存 (F12)
+◎ command + n : 新規ブック
+◎ command + p : 印刷
+command + o : ファイル開く
+◎ command + w : ウインドウ閉じる
+command + option+ 矢印 : セルの枠を追加、削除(こんなのWinにない！)
+command + option + 0（ゼロ） : 選択範囲に外枠をつける (ctrl + shift + 6)
+command + option + -（マイナス） : 選択範囲の罫線を消去 (ctrl + shift + ろ)
+command +計算式の表示／非表示 ?
+option + 左右矢印キー : シート切り替え
+command + shift + n : コメント入力(shift + F2)
+command + k : URLなどのハイパーリンクが入力
+option + 下矢印キー : オートコンプリート候補一覧表示
+command + b : 太字
+command + shift + > : 文字サイズを大きく
+command + shift + < : 文字サイズを小さく
+command + L : 左揃え
+command + E : 中央揃え
+command + R : 右揃え
+option + shift + 上矢印キー : セル内でふりがなの編集
+command + t : 数式の絶対、相対参照切り替え (F4)
+command + i : 斜体斜体
+option + ←、→ : セル内で文字列の先頭や最後に移動 (Home、End)
+
+
+[保存]
+保存有無の選択は、tabで選択→space(returnではだめ！)

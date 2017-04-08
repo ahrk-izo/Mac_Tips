@@ -1,0 +1,154 @@
+[Finder]
+(移動やファイル選択)
+command + [ : 履歴を戻る(windowsのbackspace)
+command + ] : 履歴を進む
+command + ↓ : 子フォルダに移動
+command + ↑ : 親フォルダに移動
+command + control + ↑ : 親フォルダを別ウィンドウで開く
+command + → : フォルダ展開
+command + ← : フォルダ畳む
+option + → : フォルダ展開(サブディレクトリ含めて全て)
+tab : ファイル(フォルダ)を選択(↓矢印と同じ)
+shift + tab : ファイル(フォルダ)を逆順で選択(↑矢印と同じ)
+command + option + a : 選択をリセット
+command + F1 : ウィンドウを循環
+command + shift + g : フォルダ移動(パスのアドレスが表示される)
+
+(直接移動)
+command + shift + d : デスクトップ
+command + option + l : ダウンロード
+※その他Finderのメニューバーを見れば、いろいろある
+
+(色々)
+command + d : 複製を作成
+command + i :「情報」を表示(閉じるには command + w)
+command + l :「エイリアス(ショートカット)」を作成
+command + m : Dockにしまう
+command + n : 新規Finderウィンドウ
+command + o : ファイルorフォルダorアプリケーションを起動
+command + r : 「エイリアス」の本体を表示(本体があるFinderに移動)
+command + q : App終了
+command + t :「サイドバー」に追加
+command + w : 閉じる
+command + , : Finderの環境設定を開く
+
+(もっと色々)
+command + delete : ゴミ箱に捨てる
+command + shift + n : 新規フォルダを作成
+command + control + n : 選択したファイル等を入れたフォルダ作成
+command + option + w : 同アプリケーションすべて閉じる
+command + control + o : 新規ウインドウでフォルダを開く(Finder>環境設定＞一般 でタブで開くならタブで)
+command + option + o : 新規ウインドウでフォルダを開いて、前のフォルダを閉じる
+control + tab : タブで開いたFinderを切り替える
+command + option + v : 切り取り(command + c でコピーしてから)
+command + y(or spaceのみ) :Quick Lookで表示(フォルダとかを)
+command + shift + t : 「Dock」に追加
+comannd + control + t : よく使う項目」に追加
+command + control + f : 最大化(元に戻す)
+
+(表示形式切替)
+command + 1 : アイコン表示
+command + 2 : リスト表示
+command + 3 : カラム表示
+command + 4 : Cover Flow表示
+command + control + 1 : 名前順に並び替え
+command + control + 2 : 変更日順に並び替え
+command + control + 3 : 作成日順に並び替え
+command + control + 4 : サイズ順に並び替え
+command + control + 5 : 種類順に並び替え
+command + control + 6 : ラベル順に並び替え
+command + option + s : サイドバー表示・非表示
+command + option + p : パスバー表示・非表示
+
+---------
+
+[テキスト・カーソル移動]
+control + a : 行の先頭
+control + e : 行の最後
+control + f : 進む
+control + b : 戻る
+control + l : カーソル位置が中央になるよう表示(カーソル位置は変わらず)
+control + p : 上へ
+control + n : 下へ
+control + o : 下に1行挿入
+control + t : 左右の文字を入れ替える
+command + control + d : カーソル位置の文字を調べる(辞書)
+command + h : 削除(backspace)
+command + d : 削除(delete)
+command + z : 取り消す
+command + shift + z : やり直す
+
+[文字入力]
+command + : 半角英数字
+command + ; 半角カナ
+command + l 全角英数字
+command + k 全角カナ
+command + j 戻す
+command + b 太文字
+command + i 斜体
+command + u 下線
+command + t フォントウィンドウ開く
+
+---------
+
+[その他]
+option + 1 : Spotlight(元々はcontrol + space だが、システム環境＞キーボード＞ショートカットで変更した)
+control + F2 : メニューバーを操作対象にする(左側)
+control + F3 : Dockを操作対象にする
+control + F4 : 操作対象を切り替える(そのデスクトップ内のウィンドウ)
+control + F5 : ウィンドウのツールバーを操作対象にする
+control + F8 : ステータスメニューを操作対象にする(右側)
+speace : タブで「保存」や「キャンセル」を選択したあとの決定
+
+(スクリーンショット)
+command + shift + 3 : スクリーンショット(デスクトップに保存される)
+command + shift + control + 3 : スクリーンショット(クリップボードに保存)
+command + shift + 4 : 選択してスクリーンショット(デスクトップに保存される)
+command + shift + control + 4 : 選択してスクリーンショット(クリップボードに保存)
+
+
+---------
+[CotEditor]
+環境変数＞キーバインド に色々載っている
+
+(検索)
+command + f : 検索画面起動
+command + g : 次を検索
+command + shift + g : 前を検索
+command + shift + f : すべて検索
+command + shift + r : 置換して次を検索
+command + shift + control + r : すべて置換
+command + shift + h : ハイライト
+command + shift + control + h : ハイライト解除
+
+---------
+[iterm2]
+command + , : Preferences
+command + d : ウィンドウ分割(左右)
+command + shift + d : ウィンドウ分割(上下)
+command + [ or ] : 分割ウィンドウの切り替え選択
+commnad + shift + y : itermの表示・非表示(emacsで設定されていないキーバインドを使用)
+command + shift + h : クリップボード機能(コピペ履歴+補完)
+command + u : 透明度の切り替え
+command + n : 新しいウィンドウ作成
+command + t : 新しいタブの作成
+command + shift + [ or ] : タブの切り替え
+command + w : 閉じる
+command + k : バッファクリア
+control + l : 入力行をターミナル先頭に移動(バッファはスクロールすれば残っている)
+command + f : 検索
+command + ; : 補完？
+command + option + e : 全てのタブを検索・表示
+control + d : 閉じる？
+command + option + ドラッグ : 矩形選択(マウスだけど)
+
+---------
+[FileMerge]
+opendiff fileA fileB : 起動(コマンド実行)
+command + u : Recompare Files(更新)
+
+
+---------
+[Git]
+git difftool : difftool(FileMerge)を使って差分確認(編集分。ステージング前)
+git difftool ^HEAD : difftool(FileMerge)を使って差分確認(現在のHEADと。ステージング後OK)

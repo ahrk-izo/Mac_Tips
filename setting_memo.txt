@@ -1,0 +1,20 @@
+---------
+[Finder]
+隠しファイルを表示する
+(iterm2で)
+$ defaults write com.apple.finder AppleShowAllFiles TRUE
+$ killall Finder
+
+隠しファイルを非表示する
+$ defaults write com.apple.finder AppleShowAllFiles FALSE
+$ killall Finder
+
+---------
+[環境変数]
+環境変数を表示(全て)
+$ export -p
+
+環境変数を表示(指定)
+echo $PATH
+
+
